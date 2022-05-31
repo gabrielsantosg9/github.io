@@ -1,0 +1,127 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+body {
+    background-image: url(background.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+ul {
+  list-style: none;
+}
+
+html, body
+{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+/*****************************************************************************/
+
+.wrapper {
+    display: inline-block;
+    height: 100%;
+    font-size: 0;
+    width: 100%;
+    background: #00000040;
+    /*overflow: hidden;*/
+}
+.wrapper .nav
+{
+    display: inline-block;
+    vertical-align: top;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 200%;
+    text-transform: uppercase;
+    height: 100%;
+    width: fit-content;
+    background: #ff4040;
+
+}
+    .wrapper .content {
+        display: inline-block;
+        position: static;
+        text-align: center;
+        height: 100%;
+        width: fit-content;
+        overflow: hidden;
+    }
+
+.wrapper .content .box_iframe
+{
+    transform: translate3d(-50%,-50%,0);
+    position: absolute;
+    display: none;
+    left: 50%;
+    top: 50%;
+}
+
+/*********************************************************/
+
+#titulo
+{
+	width: 248px;
+	height: 104px;
+	background: url("logo.png");
+	margin: 50px 0 0 50px;
+	background-repeat: no-repeat;
+	padding-bottom: 7em;
+}
+
+#cliente 
+{
+padding-bottom: 2em;
+
+}
+
+#cliente h2 {
+font-size: 24px;
+color: #fff;
+
+}
+
+.links
+{
+  width: 200px;
+  position: relative;
+  margin: 20px 0 0 50px;
+}
+
+div a
+{
+  display: block;
+  color: #fff;
+  text-decoration: none;
+}
+div a:hover,
+div a.active
+{
+   color: #000;
+}
+
+a:hover,
+a.active
+{
+   color: #000;
+}

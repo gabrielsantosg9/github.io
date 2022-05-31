@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- BEGIN CSSFILES -->
+    <link rel="stylesheet" type="text/css" href="custom.css" />
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script type="text/javascript">$(document).on('click', '.links a', function () {
+            var _self = $(this);
+            var url_src = $(_self.data('id')).find('iframe').data('src');
+            $('.links a.active').removeClass('active');
+            _self.addClass('active');
+
+            $('.box_iframe').hide();
+            $(_self.data('id')).show().find('iframe').attr('src', url_src);
+});
+    </script>
+    <title>Convert-Criaçåo-Validaçåo HTML</title>
+</head>
+<body>
+        <div class="wrapper">
+            
+            <div class="nav">
+                <div id="titulo"></div>
+
+                <ul class="links">
+<div id="cliente">
+                <h2>CAMPANHA XXX</h2>
+                <h2>CLIENTE XXX </h2>
+</div>
+                    <li><a href="javascript:void(0);" data-id="#criativo_01_1">160x600</a></li>
+                    <li><a href="javascript:void(0);" data-id="#criativo_01_2">300x250</a></li>
+                    <li><a href="javascript:void(0);" data-id="#criativo_01_3">320x50</a></li>
+                    <li><a href="javascript:void(0);" data-id="#criativo_01_4">320x100</a></li>
+                    <li><a href="javascript:void(0);" data-id="#criativo_01_5">320x480</a></li>
+                </ul>                       
+            </div>
+
+            <div class="content">
+                <!-- abas -->
+                <div class="box_iframe" id="criativo_01_1" style="display: block;">
+                    <iframe width="160" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                        data-src="./banners/Oi_Fibra_Windersson_160x600/Oi_Fibra_Windersson_160x600.html" src="./banners/Oi_Fibra_Windersson_160x600/Oi_Fibra_Windersson_160x600.html">
+                    </iframe>
+                </div>
+                <div class="box_iframe" id="criativo_01_2">
+                    <iframe width="300" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                        data-src="./banners/Oi_Fibra_Windersson_300x250/index.html">
+                    </iframe>
+                </div>
+                <div class="box_iframe" id="criativo_01_3">
+                    <iframe width="320" height="50" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                        data-src="./banners/Oi_Fibra_Windersson_320x50/Oi_Fibra_Windersson_320x50.html">
+                    </iframe>
+                </div>
+                <div class="box_iframe" id="criativo_01_4">
+                    <iframe width="320" height="100" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                        data-src="./banners/Oi_Fibra_Windersson_320x100/Oi_Fibra_Windersson_320x100.html">
+                    </iframe>
+                </div>
+                <div class="box_iframe" id="criativo_01_5">
+                    <iframe width="320" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                        data-src="./banners/Oi_Fibra_Windersson_336x280/Oi_Fibra_Windersson_336x280.html">
+                    </iframe>
+                </div>
+                <div class="box_iframe" id="criativo_01_6">
+                    <iframe width="970" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                        data-src="./banners/Oi_Fibra_Windersson_970x250/Oi_Fibra_Windersson_970x250.html">
+                    </iframe>
+                </div>
+
+                <div class="box_iframe" id="criativo_01_7">
+                    <iframe width="1250" height="625" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                        data-src="../1250x625-Fechado/index.html">
+                    </iframe>
+                </div>
+                <div class="box_iframe" id="criativo_01_8">
+                    <iframe width="336" height="280" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                        data-src="../336x280-Fechado/index.html">
+                    </iframe>
+                </div>
+
+            </div>
+
+        </div>
+</body>
+</html>
